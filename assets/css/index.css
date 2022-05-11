@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&family=Quicksand:wght@400;600&display=swap');
+
+@import url(./header.css);
+
+:root {
+    --font-highlight: "Quicksand", sans-serif;
+    --font-main: "Barlow", sans-serif;
+
+    --color-background: #F4EFFC;
+    --color-card: #E2DAEB;
+    --color-highlight: #FF6E6C;
+    --color-secondary: #67568C;
+    --color-tertiary: #FBDD74;
+    --color-text: #231C2E;
+}
+
+body {
+    background-color: var(--color-background);
+    box-sizing: border-box;
+    color: var(--color-text);
+    font-family: var(--font-main);
+    font-weight: 400;
+    overflow-x: hidden;
+}
