@@ -42,7 +42,7 @@
     color: var(--color-tertiary);
 }
 
-.menu__item--button {
+.menu__item.--button {
     color: var(--color-text);
     background-color: var(--color-highlight);
     box-shadow: .20em .20em .06em var(--color-tertiary);
@@ -54,7 +54,7 @@
     transition: transform 1s linear;
 }
 
-.menu__item--button:visited, .menu__item--button:hover {
-    color: var(--color-title);
+.menu__item.--button:visited, .menu__item.--button:hover {
+    color: var(--color-text);
     transform: scale(1.07);
 }

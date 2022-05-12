@@ -2,6 +2,7 @@
 
 @import url(./header.css);
 @import url(./menu-mobile.css);
+@import url(./banner.css);
 
 :root {
     --font-highlight: "Quicksand", sans-serif;
