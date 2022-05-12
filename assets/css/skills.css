@@ -1,0 +1,41 @@
+.skills {
+    margin: 1.75em;
+}
+
+.skills__title {
+    font-family: var(--font-highlight);
+    font-size: 1.75em;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.5em;
+    margin: 1.25em 1.25em;
+}
+
+.tech {
+    background-color: var(--color-card);
+    box-shadow: .2em .2em .3em var(--color-secondary);
+    border-radius: .25em;
+    padding: 1em 1em;
+    width: 6.25em;
+    height: 6.25em;
+    text-align: center;
+}
+
+.tech__name {
+    color: var(--color-secondary);
+    font-weight: 600;
+    font-size: 1.25em;
+    padding-bottom: 1em;
+}
+
+.tech__icon {
+    height: 60px;
+    width: 60px;
+}
