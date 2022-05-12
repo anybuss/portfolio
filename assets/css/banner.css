@@ -55,11 +55,12 @@
     background-color: var(--color-highlight);
     box-shadow: .20em .20em .06em var(--color-tertiary);
     border-radius: .3em;
-    transition: transform 2s ease-in-out;
+    transition: transform 1.5s ease-in-out;
     margin: 0 .75em;
 }
 
-.banner__social.--button:visited, .banner__social.--button:hover {
+.banner__social.--button:visited, 
+.banner__social.--button:hover {
     color: var(--color-text);
     transform: scale(1.07);
 }
