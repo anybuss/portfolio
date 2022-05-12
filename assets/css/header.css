@@ -1,15 +1,13 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     background-color: var(--color-secondary);
-    padding: .7em 1.25em;
-    height: 8vh;
+    height: 10vh;
 }
 
 .menu {
     display: flex;
-    align-items: center;
 }
 
 .menu__mobile {
@@ -35,6 +33,7 @@
     border-radius: .5em;
     height: .25em;
     width: .25em;
+    margin-top: .25em;
     margin-right: .25em;
 }
 

@@ -15,10 +15,10 @@
 
     .menu {
         position: absolute;
-        top: 8vh;
+        top: 10vh;
         right: 0;
         width: 55vw;
-        height: 92vh;
+        height: 100vh;
         background-color: var(--color-secondary);
         flex-direction: column;
         align-items: center;
