@@ -6,6 +6,7 @@
 @import url(./banner-mobile.css);
 @import url(./skills.css);
 @import url(./projects.css);
+@import url(./projects-mobile.css);
 
 :root {
     --font-highlight: "Quicksand", sans-serif;
