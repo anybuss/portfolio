@@ -4,6 +4,8 @@
 @import url(./header-mobile.css);
 @import url(./banner.css);
 @import url(./banner-mobile.css);
+@import url(./skills.css);
+@import url(./projects.css);
 
 :root {
     --font-highlight: "Quicksand", sans-serif;
