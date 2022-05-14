@@ -24,6 +24,12 @@
     text-decoration: none;
 }
 
+.projects__link:visited,
+.projects__link:hover {
+    color: var(--color-secondary);
+    text-decoration: underline;
+}
+
 .project {
     display: flex;
     justify-content: center;
