@@ -1,0 +1,6 @@
+.--subtitle {
+    color: var(--color-secondary);
+    font-family: var(--font-highlight);
+    font-size: 1.25em;
+    text-align: center;
+}
