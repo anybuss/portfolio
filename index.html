@@ -29,7 +29,7 @@
 
         <main>
             <section id="banner">
-                <div class="banner">
+                <div class="banner --section">
                     <img class="banner__photo" src="/assets/img/any-photo.png" alt="">
                     <div class="banner__infos">
                         <h1 class="banner__infos --title">Any Buss</h1>
@@ -45,8 +45,9 @@
             </section>
 
             <section id="skills">
-                <div class="skills">
+                <div class="--section">
                     <h2 class="--title" lang="en">Skills</h2>
+                    <h3 class="--subtitle">Atualmente tenho habilidades técnicas nas seguintes tecnologias:</h3>
                     <div class="skills__wrapper">
                         <article class="--box">
                             <h3 class="skills__tech --subtitle" lang="en">HTML</h3>
@@ -72,7 +73,7 @@
             </section>
 
             <section id="projetos">
-                <div class="projects">
+                <div class="--section">
                     <h2 class="--title">Projetos</h2>
                     <h3 class="--subtitle">Você pode ver esses e outros repositórios no meu <a class="--link" href="https://github.com/anybuss" target="_blank">GitHub.</a></h3>
                     <div class="projects__wrapper">
@@ -100,22 +101,22 @@
                 </div>
             </section>
 
-            <section id="contato" class="contact">
-                <h2 class="contact__title">Contato</h2>
-                <p class="contact__text">Entre em contato comigo pelo formulário abaixou ou, se preferir, me mande uma mensagem pelo <a class="contact__link" href="https://linkedin.com/in/anybuss/" target="_blank">Linkedin.</a></p>
+            <section id="contato" class="--section">
+                <h2 class="--title">Contato</h2>
+                <h3 class="--subtitle">Entre em contato comigo pelo formulário abaixou ou, se preferir, mande uma mensagem pelo <a class="--link" href="https://linkedin.com/in/anybuss/" target="_blank">Linkedin.</a></h3>
 
                 <form class="contact__form">
-                    <fieldset class="contact__form--wrapper">
-                        <label for="name" class="contact__form--label">Seu nome:</label>
-                        <input id="name" class="contact__form--input" type="text" name="name" required placeholder="Digite seu nome">
+                    <fieldset class="form__wrapper --box">
+                        <label for="name" class="form__label">Seu nome:</label>
+                        <input id="name" class="form__input" type="text" name="name" required placeholder="Escreva seu nome">
         
-                        <label for="email" class="contact__form--label">Seu e-mail:</label>
-                        <input id="email" class="contact__form--input" type="email" required placeholder="Digite seu e-mail">
+                        <label for="email" class="form__label">Seu e-mail:</label>
+                        <input id="email" class="form__input" type="email" required placeholder="Escreva seu e-mail">
         
-                        <label for="message" class="contact__form--label">Escreva sua mensagem:</label>
-                        <textarea id="message" class="contact__form--input --textarea" name="" cols="60" rows="10" required placeholder="Escreva sua mensagem"></textarea>
+                        <label for="message" class="form__label">Sua mensagem:</label>
+                        <textarea id="message" class="form__input" name="" cols="60" rows="10" required placeholder="Escreva sua mensagem."></textarea>
 
-                        <input class="contact__form--submit" type="submit" value="Enviar mensagem">
+                        <input class="form__submit --button" type="submit" value="Enviar mensagem">
                     </fieldset>
                 </form>
             </section>

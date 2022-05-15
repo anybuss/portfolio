@@ -4,6 +4,7 @@
 @import url(./header/menu.css);
 @import url(./header/menu-item.css);
 @import url(./components/button.css);
+@import url(./components/section.css);
 @import url(./banner/banner.css);
 @import url(./banner/banner-photo.css);
 @import url(./banner/banner-infos.css);
@@ -11,21 +12,21 @@
 @import url(./components/title.css);
 @import url(./components/subtitle.css);
 @import url(./components/text.css);
-@import url(./skills/skills.css);
 @import url(./skills/skills-wrapper.css);
 @import url(./components/box.css);
 @import url(./skills/skills-tech.css);
 @import url(./skills/skills-icon.css);
-@import url(./projects/projects.css);
 @import url(./components/link.css);
 @import url(./projects/projects-wrapper.css);
 @import url(./projects/projects-card.css);
 @import url(./projects/projects-img.css);
 @import url(./projects/projects-name.css);
+@import url(./contact/contact-form.css);
+@import url(./contact/form-wrapper.css);
+@import url(./contact/form-label.css);
+@import url(./contact/form-input.css);
+@import url(./contact/form-submit.css);
 
-
-@import url(./projects-mobile.css);
-@import url(./contact.css);
 @import url(./footer.css);
 
 
