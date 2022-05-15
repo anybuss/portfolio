@@ -23,8 +23,3 @@
 .menu__item:hover {
     color: var(--color-tertiary);
 }
-
-.menu__item.--button:visited, .menu__item.--button:hover {
-    color: var(--color-text);
-    transform: scale(1.05);
-}

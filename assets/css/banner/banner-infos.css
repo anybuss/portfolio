@@ -1,0 +1,11 @@
+.banner__infos {
+    margin: .25em;
+}
+
+.banner__infos.--title {
+    text-transform: uppercase;
+}
+
+.banner__infos.--subtitle {
+    text-transform: lowercase;
+}

@@ -4,14 +4,20 @@
 @import url(./header/menu.css);
 @import url(./header/menu-item.css);
 @import url(./components/button.css);
+@import url(./banner/banner.css);
+@import url(./banner/banner-photo.css);
+@import url(./banner/banner-infos.css);
+@import url(./components/title.css);
+@import url(./components/subtitle.css);
+@import url(./components/text.css);
+@import url(./banner/banner-social.css);
 
-@import url(./banner.css);
-@import url(./banner-mobile.css);
 @import url(./skills.css);
 @import url(./projects.css);
 @import url(./projects-mobile.css);
 @import url(./contact.css);
-@import url(./footer.css);
+@import url(./footer.css); 
+
 
 :root {
     --font-highlight: "Quicksand", sans-serif;
