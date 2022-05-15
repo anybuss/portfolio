@@ -1,0 +1,14 @@
+.--button {
+    background-color: var(--color-highlight);
+    box-shadow: .20em .20em .06em var(--color-tertiary);
+    border-radius: .3em;
+    color: var(--color-text);
+    display: inline-block;
+    font-size: 1.25em;
+    font-family: var(--font-highlight);
+    font-weight: 600;
+    padding: .5em;
+    transition: transform 1s linear;
+    text-decoration: none;
+    text-transform: initial;
+}
