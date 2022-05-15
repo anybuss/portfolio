@@ -1,0 +1,11 @@
+.--link {
+    color: var(--color-secondary);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.--link:visited,
+.--link:hover {
+    color: var(--color-secondary);
+    text-decoration: underline;
+}
