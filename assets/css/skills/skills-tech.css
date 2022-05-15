@@ -1,0 +1,5 @@
+.skills__tech.--subtitle {
+    font-family: var(--font-main);
+    font-weight: 600;
+    padding-bottom: .75em;
+}

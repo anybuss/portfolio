@@ -7,12 +7,16 @@
 @import url(./banner/banner.css);
 @import url(./banner/banner-photo.css);
 @import url(./banner/banner-infos.css);
+@import url(./banner/banner-social.css);
 @import url(./components/title.css);
 @import url(./components/subtitle.css);
 @import url(./components/text.css);
-@import url(./banner/banner-social.css);
+@import url(./skills/skills.css);
+@import url(./skills/skills-wrapper.css);
+@import url(./components/box.css);
+@import url(./skills/skills-tech.css);
+@import url(./skills/skills-icon.css);
 
-@import url(./skills.css);
 @import url(./projects.css);
 @import url(./projects-mobile.css);
 @import url(./contact.css);
