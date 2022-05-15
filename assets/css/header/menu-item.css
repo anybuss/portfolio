@@ -23,3 +23,13 @@
 .menu__item:hover {
     color: var(--color-tertiary);
 }
+
+@media (max-width: 350px) {
+    .menu__item {
+        font-size: 1em;
+    }
+
+    .menu__item.--button {
+        font-size: 1em;
+    }
+}
