@@ -1,0 +1,6 @@
+.--title {
+    font-family: var(--font-highlight);
+    font-size: 1.75em;
+    font-weight: 600;
+    text-align: center;
+}
