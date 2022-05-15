@@ -16,11 +16,17 @@
 @import url(./components/box.css);
 @import url(./skills/skills-tech.css);
 @import url(./skills/skills-icon.css);
+@import url(./projects/projects.css);
+@import url(./components/link.css);
+@import url(./projects/projects-wrapper.css);
+@import url(./projects/projects-card.css);
+@import url(./projects/projects-img.css);
+@import url(./projects/projects-name.css);
 
-@import url(./projects.css);
+
 @import url(./projects-mobile.css);
 @import url(./contact.css);
-@import url(./footer.css); 
+@import url(./footer.css);
 
 
 :root {

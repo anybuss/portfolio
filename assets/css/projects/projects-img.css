@@ -1,0 +1,11 @@
+.projects__img {
+    height: 200px;
+    width: 200px;
+}
+
+@media (max-width: 350px) {
+    .projects__img {
+        height: 150px;
+        width: 150px;
+    }
+}
