@@ -1,13 +1,13 @@
+.menu__mobile {
+    display: none;
+    visibility: hidden;
+}
+
+.menu {
+    display: flex;
+}
+
 @media (max-width: 800px) {
-    body {
-        overflow-x: hidden;
-    }
-
-    .header {
-        display: flex;
-        justify-content: space-around;
-    }
-
     .menu__mobile {
         display: flex;
         visibility: visible;

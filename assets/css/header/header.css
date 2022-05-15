@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--color-secondary);
+    height: 10vh;
+}
+
+@media (max-width: 800px) {
+    .header {
+        display: flex;
+        justify-content: space-around;
+    }
+}
