@@ -1,0 +1,10 @@
+.form__submit.--button {
+    cursor: pointer;
+    width: 100%;
+    margin-top: .75em;
+}
+
+.form__submit.--button:visited, 
+.form__submit.--button:hover {
+    transform: scale(1.01);
+}

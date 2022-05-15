@@ -1,0 +1,7 @@
+.contact__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.75em 2em;
+    margin-bottom: .5em;
+}
