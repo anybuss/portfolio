@@ -1,0 +1,18 @@
+.footer__copyright.--text {
+    font-family: var(--font-highlight);
+    text-align: center;
+    font-size: .75em;
+    padding-bottom: .25em;
+}
+
+.footer__copyright.--link {
+    color: var(--color-card);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.footer__copyright.--link:visited,
+.footer__copyright.--link:hover {
+    color: var(--color-card);
+    text-decoration: underline;
+}

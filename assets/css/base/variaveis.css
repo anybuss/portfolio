@@ -1,0 +1,11 @@
+:root {
+    --font-highlight: "Quicksand", sans-serif;
+    --font-main: "Barlow", sans-serif;
+
+    --color-background: #F4EFFC;
+    --color-card: #E2DAEB;
+    --color-highlight: #FF6E6C;
+    --color-secondary: #67568C;
+    --color-tertiary: #FBDD74;
+    --color-text: #231C2E;
+}

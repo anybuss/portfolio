@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&family=Quicksand:wght@400;600&display=swap');
 
+@import url(./base/variaveis.css);
+@import url(./base/base.css);
 @import url(./header/header.css);
 @import url(./header/menu.css);
 @import url(./header/menu-item.css);
@@ -26,27 +28,6 @@
 @import url(./contact/form-label.css);
 @import url(./contact/form-input.css);
 @import url(./contact/form-submit.css);
-
-@import url(./footer.css);
-
-
-:root {
-    --font-highlight: "Quicksand", sans-serif;
-    --font-main: "Barlow", sans-serif;
-
-    --color-background: #F4EFFC;
-    --color-card: #E2DAEB;
-    --color-highlight: #FF6E6C;
-    --color-secondary: #67568C;
-    --color-tertiary: #FBDD74;
-    --color-text: #231C2E;
-}
-
-body {
-    background-color: var(--color-background);
-    box-sizing: border-box;
-    color: var(--color-text);
-    font-family: var(--font-main);
-    font-weight: 400;
-    overflow-x: hidden;
-}
+@import url(./footer/footer.css);
+@import url(./footer/footer-img.css);
+@import url(./footer/footer-copyright.css);
