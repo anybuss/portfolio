@@ -1,31 +1,27 @@
-.menu__mobile {
-    display: none;
-}
-
 .menu {
     display: flex;
+    align-items: center;
 }
 
 @media (max-width: 800px) {
-    .menu__mobile {
-        display: flex;
-    }
-
     .menu {
-        position: absolute;
-        top: 10vh;
-        right: 0;
-        width: 50vw;
-        height: 95vw;
-        background-color: var(--color-secondary);
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
+        position: fixed;
+        top: 0;
+        right: -9999px;
+        height: 100vh;
+        background-color: var(--color-secondary);
+        width: 50vw;
+        padding: 1em;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.5s ease-in;
     }
-    
+
     .menu.--active {
+        right: 0;
         transform: translateX(0);
     }
 }
