@@ -3,4 +3,5 @@
     border: 2px solid var(--color-secondary);
     width: 1100px;
     height: auto;
+    text-align: left;
 }
