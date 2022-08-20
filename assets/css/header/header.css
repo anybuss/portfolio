@@ -1,7 +1,0 @@
-.header {
-    background-color: var(--color-secondary);
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1em 1em;
-}
