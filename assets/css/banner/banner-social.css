@@ -1,8 +1,0 @@
-.banner__social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 1.25em;
-    margin: .5em .5em;
-}

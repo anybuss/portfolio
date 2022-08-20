@@ -4,5 +4,4 @@ body {
     color: var(--color-text);
     font-family: var(--font-main);
     font-weight: 400;
-    overflow-x: hidden;
 }
